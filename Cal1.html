@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+ <head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+<script src="Cal1.js"></script>
+
+	
+	<style>
+		.make{
+		width:70px;
+		height:70px;
+		font-size:35;
+		margin:2;
+		cursor:pointer;
+		
+		
+		
+		
+		}
+	
+	
+	
+	</style>
+	<!--<script>
+	
+function insertVal(num){
+		document.getElementById("dd").value+=num;
+
+			
+		}
+
+function shnati(){
+	//alert("d");
+	document.getElementById("dd").value="";
+	
+}
+function sumation1(){
+
+	var exp = document.getElementById("dd").value;
+	if(exp == "++" || "**" || "//"){
+	
+	alert("Aise thodi addition hota he bhai....!!")
+	
+	
+	};
+
+
+	if(exp){
+		document.getElementById("dd").value=eval(exp);
+	}
+}
+ </script>-->
+
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+		<div class="container">
+		
+		<div class="row" style="height:350px"></div>
+		
+		</div>
+
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-6 ml-5">
+			<form name="form">
+				<input id="dd" style="width:320px; height:60px" class="textview mb-2 border border-info " value=" ">
+			</form>
+		
+			<table class="bg-dark">
+				<tr>
+					<td><input class="button make border border-dark m-1" value="1" type="button" onclick="insertVal('1')"></td>
+					<td><input class="button make border border-dark  m-1" value="2"type="button" onclick="insertVal('2')"></td>
+					<td><input class="button make border border-dark  m-1" value="3"type="button" onclick="insertVal('3')"></td>
+					<td><input class="button make border border-dark  m-1" value="+"type="button" onclick="insertVal('+')"></td>
+				
+				
+				</tr>
+			
+				<tr>
+					<td><input class="button make border border-dark  m-1" value="4"type="button" onclick="insertVal('4')"></td>
+					<td><input class="button make border border-dark  m-1" value="5"type="button" onclick="insertVal('5')"></td>
+					<td><input class="button make border border-dark  m-1" value="6"type="button" onclick="insertVal('6')"></td>
+					<td><input class="button make border border-dark  m-1" value="-"type="button" onclick="insertVal('-')"></td>
+				
+				</tr>
+				<tr>
+					<td><input class="button make border border-dark  m-1" value="7"type="button" onclick="insertVal('7')"></td>
+					<td><input class="button make border border-dark  m-1" value="8"type="button" onclick="insertVal('8')"></td>
+					<td><input class="button make border border-dark  m-1" value="9"type="button" onclick="insertVal('9')"></td>
+					<td><input class="button make border border-dark  m-1" value="*"type="button" onclick="insertVal('*')"></td>
+				
+				
+				</tr>
+				<tr>
+					<td><input class="button make border border-dark  m-1" value="C"type="button" onclick="shnati()"></td>
+					<td><input class="button make border border-dark  m-1" value="<"type="button"></td>
+					<td><input class="button make border border-dark  m-1" value="/"type="button" onclick="insertVal('/')"></td>
+					<td><input class="button make border border-dark  m-1" value="="type="button" onclick="sumation1()"></td>
+				
+				
+				</tr>
+			
+			
+			
+			
+			</table>
+			</div>
+			
+			<div class="col-sm-3"></div>
+		
+		</div>
+
+  
+ </body>
+</html>
